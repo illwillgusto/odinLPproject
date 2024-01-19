@@ -1,0 +1,30 @@
+body {
+    font-size: 18px;
+    background-color: #1f2937;
+}
+
+.section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: auto;
+}
+
+.section1 {
+    background-color: #1f2937;
+}
+
+.section2 {
+    background-color: white;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.section4 {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+}
