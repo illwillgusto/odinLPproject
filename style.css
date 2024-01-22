@@ -23,7 +23,61 @@ body {
 
 .section4 {
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
+
+.modal {
+    padding: 16px;
+    background-color: #3882f6;
+    width: 780px;
+    height: 58px;
+    border-radius: 8px;
+    margin: 16px;
+    
+}
+.containerCTA {
+    position: relative;
+ 
+}
+
+.header,
+.containertext {
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 8px;
+    left: 80px;
+}
+
+.header {
+    font-size: 16px;
+
+}
+
+.containertext {
+    font-size: 14px;
+    
+}
+
+.right-link {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    height: 24px;
+    width: 80px;
+    border: 1.75px solid;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    right: 160px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .footer {
     background-color: #1f2937;
