@@ -6,7 +6,7 @@ body {
 .section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    width: auto;
+    display: flex;
 }
 
 .section1 {
@@ -19,6 +19,27 @@ body {
 
 .section3 {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal2 {
+    padding: 16px;
+    width: 380px;
+    margin: 16px;
+}
+
+.Quote {
+    font-weight: lighter;
+    
+}
+
+.speaker {
+    font-size: 12px;
+    position: absolute;
+    right: 480px;
+    font-weight: bolder;
 }
 
 .section4 {
