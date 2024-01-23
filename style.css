@@ -31,7 +31,6 @@ ul {
     color: white;
 }
 
-
 .section {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -40,6 +39,41 @@ ul {
 .section1 {
     background-color: #1f2937;
 }
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 210px;
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: 36px;
+}
+
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    width: 80px;
+    border: 0;
+    border-radius: 4px;
+    height: 24px;
+}
+
+.modalA {
+    padding: 16px;
+    width: 280px;
+}
+
+.placeholderimg {
+    position: absolute;
+    right: 210px;
+    top: 86px;
+}
+
 
 .section2 {
     background-color: white;
