@@ -4,6 +4,34 @@ body {
     
 }
 
+.navheader {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 16px;
+}
+
+.left-link {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    color: white;
+}
+
+.right-linkhead {
+    position: absolute;
+    right: 200px;
+    top: 0;
+    color: white;
+}
+
+
 .section {
     padding-top: 3rem;
     padding-bottom: 3rem;
